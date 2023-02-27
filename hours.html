@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Vaibhav Kesarwani" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="img/R.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css">
     <title>LTS Hours</title>
-  </head>
-  <body>
-    <header>
-        <h1>The Little Taco Shop Hours</h1>
-        <nav>
-            <ul>
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Taco Shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
                 <li>
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/#about">About <abbr title="The Little Taco Shop">LTS</abbr> </a>
+                    <a href="/#menu">Menu</a>
                 </li>
                 <li>
-                    <a href="/#menu">Our Menu</a>
+                    <a href="contact.html">Contact</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact us</a>
+                    <a href="about.html">About</a>
                 </li>
             </ul>
         </nav>
-
+    </header>
+    <section class="hero">
         <figure>
-            <img src="img/tray.png" alt="A Tray of Tasty Tacos" title="We Love Tray's of Tacos!!" width="400" height="267">
-            <figcaption>
+            <img src="img/tray.png" alt="A Tray of Tasty Tacos" title="We Love Tray's of Tacos!!" width="1000"
+                height="667">
+            <figcaption class="offscreen">
                 A Tray of Tasty Tacos
             </figcaption>
         </figure>
-    </header>
-    <hr>
-    <main>
-        <p>
-            We are open 7 days a week!
-        </p>
-        <dl>
-            <dt>Sunday-Thursaday</dt>
-            <dd>11am-9pm</dd>
-            <dt>Friday-Saturday</dt>
-            <dd>11am-11pm</dd>
-        </dl>
-        <p>
-            <a href="#">Back To Top</a>
-        </p>
+    </section>
+    <main class="main">
+        <article class="main__article">
+            <p>
+                We are open 7 days a week!
+            </p>
+            <dl>
+                <dt>Sunday-Thursaday</dt>
+                <dd>11am-9pm</dd>
+                <dt>Friday-Saturday</dt>
+                <dd>11am-11pm</dd>
+            </dl>
+            <p>
+                <a href="#">Back To Top</a>
+            </p>
+        </article>
     </main>
     <hr>
-    <footer>
-        <p>Copyright &copy; The Little Taco Shop</p>
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy;</span>
+            <span class="nowrap">Little Toco Shop</span>
+        </p>
     </footer>
-  </body>
+</body>
+
 </html>
